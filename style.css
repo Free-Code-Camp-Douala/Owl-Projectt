@@ -6,9 +6,27 @@ header{
     text-align: center;
 }
 .main-owl{
-    width: 200px;
-    height: 200px;
-    margin: 10px auto;
+    width: 300px;
+    height: 300px;
+    margin: 40px auto;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.owl-top{
+    width:100%;
+    height: 50%;
+
+}
+.oeil-gauche, .oeil-droit {
+    width: 30%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 50%;
+    display:inline-block;
+}
+.pupille{
+    width: 50%;
+    height: 50%;
     border: 1px solid black;
     border-radius: 50%;
 }
